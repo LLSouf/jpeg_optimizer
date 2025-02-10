@@ -4,10 +4,15 @@ An intelligent bash script that optimizes JPEG images while maintaining image qu
 
 ## ✨ Key Features
 🔍 Recursive search for JPG/JPEG files
+
 📊 Lossless image optimization
+
 🏷️ Smart metadata tagging
+
 🔄 Iterative optimization process
+
 ⚡ Keeps only the smallest optimized version
+
 🎯 Skips already optimized images
 
 ## 🔧 Prerequisites
@@ -27,13 +32,20 @@ sudo dnf install libjpeg-turbo-utils perl-Image-ExifTool
 
 ## ⚙️ Process Flow
 🔍 Finds all .jpg/.jpeg files
+
 ✨ Checks for 'Optimized' tag
+
 📦 Performs lossless optimization
+
 🏷️ Tags processed images
+
 💾 Keeps smallest version
 
 ## ⚠️ Notes
 Requires write permissions
+
 Creates temporary files during processing
+
 Non-destructive optimization
+
 Preserves original metadata
